@@ -1,16 +1,7 @@
-let Onibus = {
-    rodas: 8,
-    limiteDePassageiros: 40,
-    portas: 2
-};
+let nomes = ["Caio", "Ricardo", "Lucas", "Matheus", "Jessica"];
 
-delete Onibus.rodas;
-
-console.log(Onibus.rodas);
-
-Onibus.janelas = 20;
-
-console.log(Onibus);
-console.log(Onibus.janelas);
-
-
+if (nomes.includes("Caio")) {
+    console.log("O nome Caio está incluso no array!");
+} else {
+    console.log("O nome Caio não está incluso no array!");
+}
